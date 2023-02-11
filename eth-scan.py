@@ -11,8 +11,8 @@ i = 0
 while(1):
     i = i+1
     print("###:", i)
-    w3 = Web3(HTTPProvider('https://mainnet.infura.io/v3/2428631d7b6044cd8ccfa6cbdbbbc50f'))
-    print(w3.isConnected())
+    w3 = Web3(HTTPProvider('https://mainnet.infura.io/v3/7b5ccbd2feee4832a43cc9f5aaabf0be'))
+    #print(w3.isConnected())
 
     # Generate english mnemonic words
     MNEMONIC: str = generate_mnemonic(language="english", strength=128)
