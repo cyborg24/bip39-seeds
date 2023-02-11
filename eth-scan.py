@@ -32,7 +32,7 @@ while(1):
     print("Base HD Path:  m/44'/60'/0'/0/{address_index}", "\n")
 
     # Get Ethereum BIP44HDWallet information's from address index
-    for address_index in range(2):
+    for address_index in range(1):
         # Derivation from Ethereum BIP44 derivation path
         bip44_derivation: BIP44Derivation = BIP44Derivation(
             cryptocurrency=EthereumMainnet, account=0, change=False, address=address_index
